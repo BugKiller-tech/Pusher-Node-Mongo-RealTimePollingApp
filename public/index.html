@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+  
+          
+</head>
+<body>
+  <h1>OS Vote</h1>
+  <p>Vote for your favorite Programming language</p>
+  <form id="vote-form">
+    <p>
+      <input type="radio" name="os" value="Windows" id="windows">
+      <label for="windows">Windows</label>
+    </p>
+    <p>
+      <input type="radio" name="os" value="Linux" id="linux">
+      <label for="linux">Linux</label>
+    </p>
+    <p>
+      <input type="radio" name="os" value="MacOS" id="macos">
+      <label for="macos">MacOS</label>
+    </p>
+    <p>
+      <input type="radio" name="os" value="Other" id="other">
+      <label for="other">Other</label>
+    </p>
+    <p>
+      <button class="btn" type="submit">Vote</button>
+    </p>
+  </form>
+
+  <br><br>
+  <div id="chartContainer" style="height: 300px; width: 100%">
+
+  </div>
+
+  
+
+
+
+  <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pusher/4.2.2/pusher.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
